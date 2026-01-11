@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /realtime/
+Disallow: /admin/
+Disallow: /data/
+Allow: /public-notice.html
+Allow: /index.html

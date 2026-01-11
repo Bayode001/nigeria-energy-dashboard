@@ -5,15 +5,15 @@
     <title>Emergency Access</title>
     <script>
         // Different password for emergency access
-        const EMERGENCY_PASS = "EmergencyAccess2024!";
+        const EMERGENCY_PASS = "EmergencyAccess2026!";
         
         function checkEmergencyAccess() {
             const pass = prompt("🔐 Emergency Access - Enter emergency password:");
             if (pass === EMERGENCY_PASS) {
-                window.location.href = "https://bayode001.github.io/nigeria-renewable-energy/realtime/";
+                window.location.href = "https://bayode001.github.io/nigeria-energy-dashboard/";
             } else {
                 alert("Invalid emergency password");
-                window.location.href = "https://bayode001.github.io/nigeria-renewable-energy/";
+                window.location.href = "https://bayode001.github.io/nigeria-energy-dashboard/";
             }
         }
         window.onload = checkEmergencyAccess;

@@ -362,7 +362,21 @@
 </head>
 <body>
 <body>
- 
+
+<!-- Display login status -->
+<div id="auth-status" style="position: fixed; top: 10px; right: 10px; padding: 5px 10px; background: #f0f0f0; border-radius: 3px;">
+    <span id="status-text">Protected Access</span>
+</div>
+
+<script>
+// Check if coming from Cloudflare protected gateway
+const referrer = document.referrer;
+if (referrer.includes('workers.dev')) {
+    document.getElementById('status-text').innerHTML = '🔐 Secured Access';
+    document.getElementById('auth-status').style.background = '#d4edda';
+}
+</script>
+
     <!-- Add this RIGHT AFTER <body> -->
 <div style="background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%); color: white; padding: 20px; text-align: center;">
     <div style="max-width: 800px; margin: 0 auto;">
