@@ -1,20 +1,55 @@
-<!-- logout.html in your GitHub repo -->
+<!-- logout.html -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Logged Out - Nigeria Energy Dashboard</title>
-    <script>
-        // Clear HTTP Basic Auth cache (tricky but this helps)
-        fetch('https://nigeria-energy-auth.bayode001.workers.dev/logout', {
-            method: 'POST',
-            credentials: 'include'
-        }).then(() => {
-            alert('You have been logged out. Close all browser windows to complete logout.');
-            window.location.href = 'https://bayode001.github.io/nigeria-energy-dashboard/';
-        });
-    </script>
+    <title>Logout - Nigeria Energy Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            text-align: center;
+        }
+        .logout-box {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 10px;
+            background: #f8f9fa;
+        }
+    </style>
 </head>
 <body>
-    <p>Logging out...</p>
+    <div class="logout-box">
+        <h2>🔓 Logout from Nigeria Energy Dashboard</h2>
+        <p>To completely logout, follow these steps:</p>
+        
+        <ol style="text-align: left; display: inline-block; margin: 20px 0;">
+            <li>Close ALL browser windows and tabs</li>
+            <li>Clear browser cache (Ctrl+Shift+Delete)</li>
+            <li>Use incognito mode for next login</li>
+        </ol>
+        
+        <div style="margin: 30px 0;">
+            <button onclick="clearAuth()" style="padding: 12px 25px; background: #dc3545; 
+                    color: white; border: none; border-radius: 5px; cursor: pointer;">
+                Clear Stored Credentials
+            </button>
+        </div>
+        
+        <p><a href="ACCESS.html">← Back to Access Guide</a></p>
+    </div>
+    
+    <script>
+        function clearAuth() {
+            // Try to clear HTTP Basic Auth cache
+            fetch('https://nigeria-energy-auth.bayode001.workers.dev/logout', {
+                method: 'POST',
+                credentials: 'include'
+            }).then(() => {
+                alert('Credentials cleared. Please close all browser windows.');
+                window.location.href = 'https://bayode001.github.io/nigeria-energy-dashboard/';
+            });
+        }
+    </script>
 </body>
 </html>

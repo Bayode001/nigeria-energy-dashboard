@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigeria Energy Dashboard - Access Instructions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        .logo {
+            font-size: 60px;
+            color: #1a2980;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #1a2980;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 18px;
+        }
+        
+        section {
+            margin: 40px 0;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        h2 {
+            color: #1a2980;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .step {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #1a2980;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #1a2980;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        
+        .url-box {
+            background: #1a2980;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            word-break: break-all;
+        }
+        
+        .credential-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .link-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s;
+        }
+        
+        .link-card:hover {
+            border-color: #1a2980;
+            transform: translateY(-3px);
+        }
+        
+        .link-icon {
+            font-size: 36px;
+            margin-bottom: 15px;
+            color: #1a2980;
+        }
+        
+        @media print {
+            .container {
+                box-shadow: none;
+            }
+            
+            .link-grid {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">⚡</div>
+            <h1>Nigeria Energy Dashboard</h1>
+            <p class="subtitle">Complete Access Instructions for Authorized Users</p>
+            <p style="color: #666; margin-top: 15px; font-size: 14px;">
+                Version 2.0 | Protected by Cloudflare | Last updated: <span id="currentDate"></span>
+            </p>
+        </header>
+        
+        <!-- Primary Access Section -->
+        <section id="primary-access">
+            <h2>🔐 Primary Access Method</h2>
+            
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Visit Secure Gateway</strong>
+                <div class="url-box">
+                    https://nigeria-energy-auth.bayode001.workers.dev
+                </div>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Enter Credentials</strong>
+                <div class="credential-box">
+                    <p><strong>Username:</strong> <span id="usernamePlaceholder">[Provided by administrator]</span></p>
+                    <p><strong>Password:</strong> <span id="passwordPlaceholder">[Provided by administrator]</span></p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Access Dashboard</strong>
+                <p>After successful authentication, you will be redirected to the realtime dashboard.</p>
+            </div>
+        </section>
+        
+        <!-- Alternative Methods -->
+        <section id="alternative-methods">
+            <h2>🔄 Alternative Access Methods</h2>
+            
+            <div class="link-grid">
+                <a href="mobile-access.html" class="link-card">
+                    <div class="link-icon">📱</div>
+                    <h3>Mobile Access</h3>
+                    <p>Optimized for phones & tablets</p>
+                </a>
+                
+                <a href="https://bayode001.github.io/nigeria-energy-dashboard/" 
+                   class="link-card" target="_blank">
+                    <div class="link-icon">🌐</div>
+                    <h3>Direct Access</h3>
+                    <p>Public dashboard (unprotected)</p>
+                </a>
+                
+                <a href="emergency-access.html" class="link-card">
+                    <div class="link-icon">🚨</div>
+                    <h3>Emergency Access</h3>
+                    <p>Backup access method</p>
+                </a>
+                
+                <a href="status.html" class="link-card">
+                    <div class="link-icon">📊</div>
+                    <h3>System Status</h3>
+                    <p>Check service availability</p>
+                </a>
+            </div>
+        </section>
+        
+        <!-- Troubleshooting -->
+        <section id="troubleshooting">
+            <h2>🔧 Troubleshooting</h2>
+            
+            <div class="step">
+                <strong>❌ No Login Prompt?</strong>
+                <ul style="margin: 15px 0 15px 25px;">
+                    <li>Refresh the page (F5 or Ctrl+R)</li>
+                    <li>Try incognito/private browsing mode</li>
+                    <li>Clear browser cache and cookies</li>
+                    <li>Try a different browser (Chrome, Firefox, Edge)</li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <strong>🔐 Can't Logout?</strong>
+                <p>Use the <a href="logout.html">Logout Helper</a> to clear cached credentials.</p>
+                <p>Close ALL browser windows to completely logout.</p>
+            </div>
+            
+            <div class="step">
+                <strong>📱 Mobile Issues?</strong>
+                <p>Use <a href="mobile-access.html">Mobile Access Page</a> for better experience.</p>
+            </div>
+        </section>
+        
+        <!-- Security Notes -->
+        <section id="security">
+            <h2>🛡️ Security Guidelines</h2>
+            
+            <div class="step">
+                <strong>Do:</strong>
+                <ul style="margin: 10px 0 10px 25px; color: #28a745;">
+                    <li>Use strong, unique passwords</li>
+                    <li>Logout on shared computers</li>
+                    <li>Report any suspicious activity</li>
+                    <li>Use the secure gateway URL</li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <strong>Don't:</strong>
+                <ul style="margin: 10px 0 10px 25px; color: #dc3545;">
+                    <li>Share credentials via email</li>
+                    <li>Use public computers without logging out</li>
+                    <li>Bookmark the public dashboard for sensitive work</li>
+                    <li>Disable browser security warnings</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Contact & Support -->
+        <section id="contact">
+            <h2>📞 Contact & Support</h2>
+            
+            <div class="step">
+                <p><strong>For Access Issues:</strong> Contact system administrator</p>
+                <p><strong>Password Reset:</strong> Request through proper channels</p>
+                <p><strong>Technical Support:</strong> Check <a href="status.html">Status Page</a> first</p>
+                <p><strong>Urgent Issues:</strong> Use <a href="emergency-access.html">Emergency Access</a></p>
+            </div>
+            
+            <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #dee2e6;">
+                <h3>Quick Reference</h3>
+                <div class="url-box" style="font-size: 14px; padding: 10px;">
+                    Secure Gateway: https://nigeria-energy-auth.bayode001.workers.dev<br>
+                    Public Dashboard: https://bayode001.github.io/nigeria-energy-dashboard/<br>
+                    Access Instructions: https://bayode001.github.io/nigeria-energy-dashboard/ACCESS.html
+                </div>
+            </div>
+        </section>
+        
+        <footer style="text-align: center; margin-top: 50px; padding-top: 20px; border-top: 2px solid #e9ecef; color: #666;">
+            <p>Nigeria Energy Dashboard v2.0 | Cloudflare Protected</p>
+            <p style="font-size: 12px; margin-top: 10px;">
+                Keep this document secure. Do not share publicly.
+            </p>
+        </footer>
+    </div>
+    
+    <script>
+        // Set current date
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+        
+        // Print-friendly
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'p') {
+                e.preventDefault();
+                alert('Printing access instructions...');
+                window.print();
+            }
+        });
+        
+        // Auto-fill credentials if in private/admin mode
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('admin') === 'true') {
+            document.getElementById('usernamePlaceholder').textContent = 'admin';
+            document.getElementById('passwordPlaceholder').textContent = '[Set via Cloudflare Dashboard]';
+        }
+    </script>
+</body>
+</html>

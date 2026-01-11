@@ -44,7 +44,7 @@ nigeria-energy-dashboard/
    ```bash
    git clone https://github.com/Bayode001/nigeria-energy-dashboard.git
 
-   Open index.html in browser
+
 
    🔒 Security
 This dashboard is protected by:
@@ -59,7 +59,7 @@ Rate limiting
 
 📞 Contact
 For access requests or support, contact the system administrator.
-@famuyideb@gmail.com
+famuyideb@gmail.com
 
 Note: This dashboard was moved from the main repository for enhanced security and management.
 
