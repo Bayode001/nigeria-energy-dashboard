@@ -23,9 +23,12 @@ https://nigeria-energy-auth.bayode001.workers.dev
 ## 🛠️ Technology Stack
 
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap, Chart.js
+- **Backend:** n8n workflow automation, PostgreSQL
 - **Hosting:** GitHub Pages
 - **Authentication:** Cloudflare Workers
+- **Mapping:** OpenStreetMap + Leaflet.js
 - **Security:** HTTPS, Basic Auth, Security Headers
+- **Data Sources:** NASA POWER API, Open-Meteo API, Local Analysis
 
 ## 📁 Project Structure
 nigeria-energy-dashboard/
