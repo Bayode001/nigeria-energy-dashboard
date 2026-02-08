@@ -1,6 +1,6 @@
 # Nigeria Energy Dashboard
 
-Realtime monitoring and analytics dashboard for Nigeria's  renewacle energy infrastructure.
+Realtime monitoring and analytics dashboard for Nigeria's  renewable energy infrastructure.
 
 ## 🌐 Live Access
 
