@@ -1,0 +1,10 @@
+# Force no caching for realtime files
+include:
+  - realtime
+
+# Add cache headers
+defaults:
+  - scope:
+      path: "realtime/*.geojson"
+    values:
+      cache-control: "no-cache, no-store, must-revalidate"
