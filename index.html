@@ -600,7 +600,8 @@ if (referrer.includes('workers.dev')) {
         }).addTo(map);
         
         // Data URLs
-        const GEOJSON_URL = 'https://Bayode001.github.io/nigeria-renewable-energy/realtime/nigeria_renewable_energy_live.geojson';
+        // Add timestamp to force fresh fetch every time
+        const GEOJSON_URL = 'https://Bayode001.github.io/nigeria-energy-dashboard/realtime/nigeria_renewable_energy_live.geojson?t=' + Date.now();
         
         // State variables
         let currentState = null;
