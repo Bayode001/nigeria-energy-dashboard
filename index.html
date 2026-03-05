@@ -749,6 +749,10 @@ if (referrer.includes('workers.dev')) {
             else if (score >= 0.6) color = '#fd8d3c';
             else if (score >= 0.4) color = '#feb24c';
             else if (score >= 0.2) color = '#fed976';
+
+            
+    // Log for debugging
+    console.log(`State: ${feature.properties.ADM1_EN}, score: ${score.toFixed(3)}, color: ${color}`);
             
             return {
                 fillColor: color,
