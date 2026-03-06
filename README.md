@@ -41,14 +41,6 @@ nigeria-energy-dashboard/
 └── README.md # This file
 
 
-## 🔧 Setup for Development
-
-1. Clone repository:
-   ```bash
-   git clone https://github.com/Bayode001/nigeria-energy-dashboard.git
-
-
-
    🔒 Security
 This dashboard is protected by:
 
