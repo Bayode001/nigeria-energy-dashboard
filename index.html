@@ -135,55 +135,6 @@
             100% { opacity: 1; }
         }
         
-        /* Navigation Menu - Top Right Corner */
-        .nav-menu {
-            position: fixed;
-            top: 12px;
-            right: 12px;
-            z-index: 2000;
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            justify-content: flex-end;
-        }
-        
-        .nav-btn {
-            background: rgba(26, 41, 128, 0.9);
-            backdrop-filter: blur(5px);
-            color: white;
-            padding: 6px 14px;
-            border-radius: 25px;
-            text-decoration: none;
-            font-size: 12px;
-            font-weight: 500;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            transition: all 0.2s ease;
-        }
-        
-        .nav-btn:hover {
-            background: rgba(26, 41, 128, 1);
-            transform: translateY(-1px);
-        }
-        
-        .nav-btn.logout {
-            background: rgba(220, 53, 69, 0.9);
-        }
-        
-        .nav-btn.logout:hover {
-            background: rgba(220, 53, 69, 1);
-        }
-        
-        .nav-btn.status {
-            background: rgba(108, 117, 125, 0.9);
-        }
-        
-        .nav-btn.status:hover {
-            background: rgba(108, 117, 125, 1);
-        }
-        
         /* Side Panel - Hidden by default, appears on state click */
         .data-panel {
             position: fixed;
@@ -296,20 +247,6 @@
             color: white;
         }
         
-        /* Auth Status Badge - Minimal, removed text */
-        .auth-status {
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            z-index: 1000;
-            background: rgba(0,0,0,0.5);
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            pointer-events: none;
-            display: none; /* Hidden by default - removes the protected layer text */
-        }
-        
         /* Mobile Controls */
         .mobile-controls {
             position: fixed;
@@ -406,8 +343,8 @@
             flex-direction: column;
         }
         
-        /* Secure Access Banner - Hidden by default */
-        .secure-banner {
+        /* Hidden elements */
+        .nav-menu, .auth-status, .secure-banner {
             display: none;
         }
         
@@ -452,10 +389,6 @@
                 bottom: 20px;
                 right: 20px;
             }
-            
-            .auth-status {
-                display: none;
-            }
         }
         
         /* Small phones */
@@ -479,34 +412,14 @@
                 height: 40px;
                 font-size: 16px;
             }
-            
-            .nav-btn {
-                padding: 5px 10px;
-                font-size: 11px;
-            }
         }
     </style>
 </head>
 <body>
 
-<!-- Navigation Menu - Top Right Corner -->
-<nav class="nav-menu">
-    <a href="ACCESS.html" class="nav-btn">
-        <i class="fas fa-book-open"></i> Guide
-    </a>
-    <a href="logout.html" class="nav-btn logout">
-        <i class="fas fa-sign-out-alt"></i> Logout
-    </a>
-    <a href="status.html" class="nav-btn status">
-        <i class="fas fa-chart-line"></i> Status
-    </a>
-</nav>
-
-<!-- Auth Status - Hidden (removed protected layer text) -->
-<div id="auth-status" class="auth-status"></div>
-
-<!-- Secure Access Banner - Hidden -->
-<div class="secure-banner" id="secure-banner"></div>
+<!-- Navigation Menu - Removed (hidden) -->
+<!-- Auth Status - Removed (hidden) -->
+<!-- Secure Access Banner - Removed (hidden) -->
 
 <!-- Loading Overlay -->
 <div class="loading-overlay" id="loading">
