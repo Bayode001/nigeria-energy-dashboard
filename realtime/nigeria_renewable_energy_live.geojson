@@ -12,7 +12,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Abia",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.098,
         "wind_class": "Very Low",
@@ -28,7 +28,7 @@
         "confidence_level": "Medium",
         "investment_rank": 27,
         "investment_priority": "Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -3770,7 +3770,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Adamawa",
-        "solar_norm": 0.383,
+        "solar_norm": 0.382,
         "solar_class": "Very Low",
         "wind_norm": 0.159,
         "wind_class": "Low",
@@ -3786,7 +3786,7 @@
         "confidence_level": "Medium",
         "investment_rank": 13,
         "investment_priority": "High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -9716,23 +9716,23 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Akwa Ibom",
-        "solar_norm": 0.281,
+        "solar_norm": 0.28,
         "solar_class": "Very Low",
         "wind_norm": 0.085,
         "wind_class": "Very Low",
         "hydro_norm": 0.332,
         "hydro_class": "Very High",
-        "composite_norm": 0.223,
+        "composite_norm": 0.222,
         "composite_class": "Very Low",
-        "overall_score": 0.223,
-        "overall_percent": 22.3,
+        "overall_score": 0.222,
+        "overall_percent": 22.2,
         "overall_class": "Moderate",
         "recommended_energy": "Hydro",
         "recommendation_confidence": 0.473103563,
         "confidence_level": "Medium",
         "investment_rank": 37,
         "investment_priority": "Very Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -16422,7 +16422,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Anambra",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.098,
         "wind_class": "Very Low",
@@ -16438,7 +16438,7 @@
         "confidence_level": "Medium",
         "investment_rank": 25,
         "investment_priority": "Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -18012,7 +18012,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Bauchi",
-        "solar_norm": 0.383,
+        "solar_norm": 0.382,
         "solar_class": "Very Low",
         "wind_norm": 0.159,
         "wind_class": "Low",
@@ -18028,7 +18028,7 @@
         "confidence_level": "Medium",
         "investment_rank": 11,
         "investment_priority": "High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -25818,23 +25818,23 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Bayelsa",
-        "solar_norm": 0.281,
+        "solar_norm": 0.28,
         "solar_class": "Very Low",
         "wind_norm": 0.085,
         "wind_class": "Very Low",
         "hydro_norm": 0.332,
         "hydro_class": "Very High",
-        "composite_norm": 0.223,
+        "composite_norm": 0.222,
         "composite_class": "Very Low",
-        "overall_score": 0.223,
-        "overall_percent": 22.3,
+        "overall_score": 0.222,
+        "overall_percent": 22.2,
         "overall_class": "Moderate",
         "recommended_energy": "Hydro",
         "recommendation_confidence": 0.497069768,
         "confidence_level": "Medium",
         "investment_rank": 36,
         "investment_priority": "Very Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -28328,7 +28328,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Benue",
-        "solar_norm": 0.351,
+        "solar_norm": 0.35,
         "solar_class": "Very Low",
         "wind_norm": 0.14,
         "wind_class": "Low",
@@ -28344,7 +28344,7 @@
         "confidence_level": "Medium",
         "investment_rank": 14,
         "investment_priority": "High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -31462,7 +31462,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Borno",
-        "solar_norm": 0.383,
+        "solar_norm": 0.382,
         "solar_class": "Very Low",
         "wind_norm": 0.159,
         "wind_class": "Low",
@@ -31478,7 +31478,7 @@
         "confidence_level": "Medium",
         "investment_rank": 4,
         "investment_priority": "Very High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -40528,23 +40528,23 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Cross River",
-        "solar_norm": 0.281,
+        "solar_norm": 0.28,
         "solar_class": "Very Low",
         "wind_norm": 0.085,
         "wind_class": "Very Low",
         "hydro_norm": 0.332,
         "hydro_class": "Very High",
-        "composite_norm": 0.223,
+        "composite_norm": 0.222,
         "composite_class": "Very Low",
-        "overall_score": 0.223,
-        "overall_percent": 22.3,
+        "overall_score": 0.222,
+        "overall_percent": 22.2,
         "overall_class": "Moderate",
         "recommended_energy": "Hydro",
         "recommendation_confidence": 0.48067995,
         "confidence_level": "Medium",
         "investment_rank": 33,
         "investment_priority": "Very Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -48030,23 +48030,23 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Delta",
-        "solar_norm": 0.281,
+        "solar_norm": 0.28,
         "solar_class": "Very Low",
         "wind_norm": 0.085,
         "wind_class": "Very Low",
         "hydro_norm": 0.332,
         "hydro_class": "Very High",
-        "composite_norm": 0.223,
+        "composite_norm": 0.222,
         "composite_class": "Very Low",
-        "overall_score": 0.223,
-        "overall_percent": 22.3,
+        "overall_score": 0.222,
+        "overall_percent": 22.2,
         "overall_class": "Moderate",
         "recommended_energy": "Hydro",
         "recommendation_confidence": 0.494698867,
         "confidence_level": "Medium",
         "investment_rank": 34,
         "investment_priority": "Very Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -51224,7 +51224,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Ebonyi",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.098,
         "wind_class": "Very Low",
@@ -51240,7 +51240,7 @@
         "confidence_level": "Medium",
         "investment_rank": 23,
         "investment_priority": "Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -53122,23 +53122,23 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Edo",
-        "solar_norm": 0.281,
+        "solar_norm": 0.28,
         "solar_class": "Very Low",
         "wind_norm": 0.085,
         "wind_class": "Very Low",
         "hydro_norm": 0.332,
         "hydro_class": "Very High",
-        "composite_norm": 0.223,
+        "composite_norm": 0.222,
         "composite_class": "Very Low",
-        "overall_score": 0.223,
-        "overall_percent": 22.3,
+        "overall_score": 0.222,
+        "overall_percent": 22.2,
         "overall_class": "Moderate",
         "recommended_energy": "Hydro",
         "recommendation_confidence": 0.475782674,
         "confidence_level": "Medium",
         "investment_rank": 29,
         "investment_priority": "Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -57280,7 +57280,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Ekiti",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.11,
         "wind_class": "Low",
@@ -57296,7 +57296,7 @@
         "confidence_level": "Medium",
         "investment_rank": 18,
         "investment_priority": "Medium Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -58842,7 +58842,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Enugu",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.098,
         "wind_class": "Very Low",
@@ -58858,7 +58858,7 @@
         "confidence_level": "Medium",
         "investment_rank": 24,
         "investment_priority": "Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -60236,7 +60236,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Federal Capital Territory",
-        "solar_norm": 0.351,
+        "solar_norm": 0.35,
         "solar_class": "Very Low",
         "wind_norm": 0.14,
         "wind_class": "Low",
@@ -60252,7 +60252,7 @@
         "confidence_level": "Medium",
         "investment_rank": 21,
         "investment_priority": "Medium Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -60586,7 +60586,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Gombe",
-        "solar_norm": 0.383,
+        "solar_norm": 0.382,
         "solar_class": "Very Low",
         "wind_norm": 0.159,
         "wind_class": "Low",
@@ -60602,7 +60602,7 @@
         "confidence_level": "Medium",
         "investment_rank": 6,
         "investment_priority": "Very High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -63236,7 +63236,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Imo",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.098,
         "wind_class": "Very Low",
@@ -63252,7 +63252,7 @@
         "confidence_level": "Medium",
         "investment_rank": 31,
         "investment_priority": "Very Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -65814,7 +65814,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Jigawa",
-        "solar_norm": 0.399,
+        "solar_norm": 0.398,
         "solar_class": "Very Low",
         "wind_norm": 0.165,
         "wind_class": "Low",
@@ -65830,7 +65830,7 @@
         "confidence_level": "Medium",
         "investment_rank": 10,
         "investment_priority": "High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -75248,7 +75248,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Kaduna",
-        "solar_norm": 0.399,
+        "solar_norm": 0.398,
         "solar_class": "Very Low",
         "wind_norm": 0.165,
         "wind_class": "Low",
@@ -75264,7 +75264,7 @@
         "confidence_level": "Medium",
         "investment_rank": 8,
         "investment_priority": "High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -81954,7 +81954,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Kano",
-        "solar_norm": 0.399,
+        "solar_norm": 0.398,
         "solar_class": "Very Low",
         "wind_norm": 0.165,
         "wind_class": "Low",
@@ -81970,7 +81970,7 @@
         "confidence_level": "Medium",
         "investment_rank": 3,
         "investment_priority": "Very High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -87580,7 +87580,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Katsina",
-        "solar_norm": 0.399,
+        "solar_norm": 0.398,
         "solar_class": "Very Low",
         "wind_norm": 0.165,
         "wind_class": "Low",
@@ -87596,7 +87596,7 @@
         "confidence_level": "Medium",
         "investment_rank": 2,
         "investment_priority": "Very High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -92406,7 +92406,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Kebbi",
-        "solar_norm": 0.399,
+        "solar_norm": 0.398,
         "solar_class": "Very Low",
         "wind_norm": 0.165,
         "wind_class": "Low",
@@ -92422,7 +92422,7 @@
         "confidence_level": "Medium",
         "investment_rank": 12,
         "investment_priority": "High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -96800,7 +96800,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Kogi",
-        "solar_norm": 0.351,
+        "solar_norm": 0.35,
         "solar_class": "Very Low",
         "wind_norm": 0.14,
         "wind_class": "Low",
@@ -96816,7 +96816,7 @@
         "confidence_level": "Medium",
         "investment_rank": 20,
         "investment_priority": "Medium Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -100146,7 +100146,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Kwara",
-        "solar_norm": 0.351,
+        "solar_norm": 0.35,
         "solar_class": "Very Low",
         "wind_norm": 0.14,
         "wind_class": "Low",
@@ -100162,7 +100162,7 @@
         "confidence_level": "Medium",
         "investment_rank": 15,
         "investment_priority": "Medium Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -103124,7 +103124,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Lagos",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.11,
         "wind_class": "Low",
@@ -103140,7 +103140,7 @@
         "confidence_level": "Medium",
         "investment_rank": 26,
         "investment_priority": "Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -105374,7 +105374,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Nasarawa",
-        "solar_norm": 0.351,
+        "solar_norm": 0.35,
         "solar_class": "Very Low",
         "wind_norm": 0.14,
         "wind_class": "Low",
@@ -105390,7 +105390,7 @@
         "confidence_level": "Medium",
         "investment_rank": 19,
         "investment_priority": "Medium Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -108608,7 +108608,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Niger",
-        "solar_norm": 0.351,
+        "solar_norm": 0.35,
         "solar_class": "Very Low",
         "wind_norm": 0.14,
         "wind_class": "Low",
@@ -108624,7 +108624,7 @@
         "confidence_level": "Medium",
         "investment_rank": 16,
         "investment_priority": "Medium Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -114818,7 +114818,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Ogun",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.11,
         "wind_class": "Low",
@@ -114834,7 +114834,7 @@
         "confidence_level": "Medium",
         "investment_rank": 35,
         "investment_priority": "Very Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -121652,7 +121652,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Ondo",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.11,
         "wind_class": "Low",
@@ -121668,7 +121668,7 @@
         "confidence_level": "Medium",
         "investment_rank": 32,
         "investment_priority": "Very Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -126638,7 +126638,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Osun",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.11,
         "wind_class": "Low",
@@ -126654,7 +126654,7 @@
         "confidence_level": "Medium",
         "investment_rank": 28,
         "investment_priority": "Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -129240,7 +129240,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Oyo",
-        "solar_norm": 0.303,
+        "solar_norm": 0.302,
         "solar_class": "Very Low",
         "wind_norm": 0.11,
         "wind_class": "Low",
@@ -129256,7 +129256,7 @@
         "confidence_level": "Medium",
         "investment_rank": 22,
         "investment_priority": "Medium Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -133182,7 +133182,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Plateau",
-        "solar_norm": 0.351,
+        "solar_norm": 0.35,
         "solar_class": "Very Low",
         "wind_norm": 0.14,
         "wind_class": "Low",
@@ -133198,7 +133198,7 @@
         "confidence_level": "Medium",
         "investment_rank": 9,
         "investment_priority": "High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -137732,23 +137732,23 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Rivers",
-        "solar_norm": 0.281,
+        "solar_norm": 0.28,
         "solar_class": "Very Low",
         "wind_norm": 0.085,
         "wind_class": "Very Low",
         "hydro_norm": 0.332,
         "hydro_class": "Very High",
-        "composite_norm": 0.223,
+        "composite_norm": 0.222,
         "composite_class": "Very Low",
-        "overall_score": 0.223,
-        "overall_percent": 22.3,
+        "overall_score": 0.222,
+        "overall_percent": 22.2,
         "overall_class": "Moderate",
         "recommended_energy": "Hydro",
         "recommendation_confidence": 0.489677137,
         "confidence_level": "Medium",
         "investment_rank": 30,
         "investment_priority": "Very Low Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -140534,7 +140534,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Sokoto",
-        "solar_norm": 0.399,
+        "solar_norm": 0.398,
         "solar_class": "Very Low",
         "wind_norm": 0.165,
         "wind_class": "Low",
@@ -140550,7 +140550,7 @@
         "confidence_level": "Medium",
         "investment_rank": 7,
         "investment_priority": "Very High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -143136,7 +143136,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Taraba",
-        "solar_norm": 0.383,
+        "solar_norm": 0.382,
         "solar_class": "Very Low",
         "wind_norm": 0.159,
         "wind_class": "Low",
@@ -143152,7 +143152,7 @@
         "confidence_level": "Medium",
         "investment_rank": 17,
         "investment_priority": "Medium Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -148182,7 +148182,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Yobe",
-        "solar_norm": 0.383,
+        "solar_norm": 0.382,
         "solar_class": "Very Low",
         "wind_norm": 0.159,
         "wind_class": "Low",
@@ -148198,7 +148198,7 @@
         "confidence_level": "Medium",
         "investment_rank": 1,
         "investment_priority": "Very High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -154396,7 +154396,7 @@
       "type": "Feature",
       "properties": {
         "ADM1_EN": "Zamfara",
-        "solar_norm": 0.399,
+        "solar_norm": 0.398,
         "solar_class": "Very Low",
         "wind_norm": 0.165,
         "wind_class": "Low",
@@ -154412,7 +154412,7 @@
         "confidence_level": "Medium",
         "investment_rank": 5,
         "investment_priority": "Very High Priority",
-        "last_updated": "2026-07-03T04:00:33.765Z",
+        "last_updated": "2026-07-03T10:00:36.732Z",
         "data_source": "Real-time APIs",
         "update_type": "Parallel processing"
       },
@@ -157872,10 +157872,10 @@
     }
   ],
   "metadata": {
-    "generated": "2026-07-03T04:00:33.765Z",
+    "generated": "2026-07-03T10:00:36.732Z",
     "update_source": "n8n real-time parallel workflow",
     "data_sources": {
-      "solar": "Open-Meteo (Daily Avg - 2026-07-03 to 2026-07-09 | 90 readings)",
+      "solar": "Open-Meteo (Daily Avg - 2026-07-03 to 2026-07-09 | 88 readings)",
       "wind": "Open-Meteo API",
       "hydro": "Hydro Analysis (national)",
       "geojson": "GitHub Repository"
@@ -157889,7 +157889,7 @@
     "processing_note": "Updated with real-time API data and regional factors",
     "features_updated": 37,
     "national_scores": {
-      "solar": 0.319,
+      "solar": 0.318,
       "wind": 0.122,
       "hydro": 0.35
     },
